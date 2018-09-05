@@ -1,13 +1,16 @@
 # CentOS-Server-Lampp
 
-Putty (portable)
-Acesso por SSHH
+* Download Software Putty (portable)
+
 
 1. Atualzar pacotes Yum
+	
 	yum update -y
 
 2. Configurar o servidor SSH
+	
 	> INSTALAÇÃO
+	
 	yum install -y openssh openssh-server
 
 	> Habilitar Serviço e Firewall
