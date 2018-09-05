@@ -3,17 +3,18 @@
 * Download Software Putty (portable)
 
 
-1. Atualzar pacotes Yum
+## 1. Atualzar pacotes Yum
 	
 	yum update -y
 
-2. Configurar o servidor SSH
+## 2. Configurar o servidor SSH
 	
 	> INSTALAÇÃO
 	
 	yum install -y openssh openssh-server
 
 	> Habilitar Serviço e Firewall
+	
 	firewall-cmd --list-service | grep ssh
 	firewall-cmd --add-service ssh
 	firewall-cmd --reload
